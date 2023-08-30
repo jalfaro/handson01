@@ -39,7 +39,7 @@ jobs:
         tag_name: handson01.${{ github.sha }}
         release_name: Handson 1 Cloud ${{ github.sha }}
         draft: true
-        prerelease: false
+        prerelease: true
 
     - uses: actions/upload-release-asset@v1.0.1
       env:
